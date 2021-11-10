@@ -4,9 +4,9 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "<4"
-psycopg2 = "*"
+slack_bolt = "*"
 gunicorn = "*"
+flask = "*"
 
 [dev-packages]
 black = "*"

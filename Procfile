@@ -1,1 +1,1 @@
-web: gunicorn app.wsgi
+web: gunicorn --bind :3000 --workers 1 --threads 2 --timeout 0 bot.app:slack_events
